@@ -1,0 +1,24 @@
+<template>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Contact</h1>
+        <address class="text-left">
+          Kp.Pagergunung 05/03 <br />
+          Kec.Purbaratu <br />
+          Taroskeun we pami nyasab mah putra bapak umar hehe
+        </address>
+        <peta />
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+import peta from "../components/peta.vue";
+export default {
+  components: {
+    peta,
+  },
+};
+</script>
