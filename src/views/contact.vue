@@ -10,15 +10,19 @@
         </address>
         <peta />
       </div>
+      <!-- ieu diisian ku component form contact -->
+      <FormContact />
     </div>
   </div>
 </template>
 
 <script>
 import peta from "../components/peta.vue";
+import FormContact from "../components/FormContact.vue";
 export default {
   components: {
     peta,
+    FormContact,
   },
 };
 </script>
